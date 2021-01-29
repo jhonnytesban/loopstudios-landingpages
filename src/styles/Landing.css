@@ -1,0 +1,63 @@
+.header{
+  height: 650px;
+  background-image: url(../assets/images/mobile/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 90px;
+}
+.header__img{
+  margin: 0;
+  max-width: 100%;
+  position: absolute;
+  z-index: -100;
+}
+.container-header{
+  height: 50px;
+  padding: 50px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4.5em;
+}
+.container-header__logo{
+  height: 1.7em;
+}
+.container-header__hamburger{
+  height: 1.1em;
+}
+.container-slogan{
+  border: 2px solid var(--white-color);
+  margin: 0 25px;
+  color: var(--white-color);
+  text-transform: uppercase;
+  padding: 20px;
+  font-size: 2.5em;
+  font-family: var(--font-josefin);
+  font-weight: 300;
+}
+
+/* Main */
+.main{
+  padding: 0 25px;
+}
+.main__interactive{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.subtitle{
+  font-family: var(--font-josefin);
+  color: var(--black-color);
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.section__text{
+  text-align: center;
+  font-family: var(--font-alata);
+  font-weight: 400;
+  color: var(--gray-color);
+  line-height: 1.6em;
+}

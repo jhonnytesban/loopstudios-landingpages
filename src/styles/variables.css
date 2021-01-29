@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+:root{
+
+  /* COLORES */
+  --white-color: hsl(0, 0%, 100%);
+  --black-color: hsl(0, 0%, 0%);
+  --gray-color: hsl(0, 0%, 55%);
+  --grayDark-color: hsl(0, 0%, 41%);
+
+  /* FUENTES */
+  --font-alata: 'Alata', sans-serif;
+  --font-josefin: 'Josefin Sans', sans-serif;
+}
