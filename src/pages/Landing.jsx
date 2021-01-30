@@ -27,9 +27,44 @@ const Landing = () => {
           </section>
         </article>
         <section className="section">
-          
+          <h2 className="subtitle">our creations</h2>
+          <div className="section-img">
+            <p className="img__title">deep hearth</p>
+          </div>
+          <div className="section-img">
+            <p className="img__title">night arcade</p>
+          </div>
+          <div className="section-img">
+            <p className="img__title">soccer team vr</p>
+          </div>
+          <div className="section-img">
+            <p className="img__title">the grid</p>
+          </div>
+          <div className="section-img">
+            <p className="img__title">from up above vr</p>
+          </div>
+          <div className="section-img">
+            <p className="img__title">pocket borealis</p>
+          </div>
+          <div className="section-img">
+            <p className="img__title">the curiosity</p>
+          </div>
+          <div className="section-img">
+            <p className="img__title">make it fisheye</p>
+          </div>
+          <button className="button">see all</button>
         </section>
       </main>
+      <footer className="footer">
+        <img className="footer__img" src={Logo} alt=""/>
+        <p className="footer__text">About</p>
+        <p className="footer__text">Careers</p>
+        <p className="footer__text">Events</p>
+        <p className="footer__text">Products</p>
+        <p className="footer__text">Support</p>
+        <div className="footer-icons">
+        </div>
+      </footer>
     </Fragment>
   )
 }

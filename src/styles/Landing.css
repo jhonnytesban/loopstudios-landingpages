@@ -1,3 +1,4 @@
+/* Header */
 .header{
   height: 650px;
   background-image: url(../assets/images/mobile/image-hero.jpg);
@@ -44,7 +45,9 @@
   width: 100%;
   margin-bottom: 20px;
 }
-
+.article{
+  margin-bottom: 80px;
+}
 .subtitle{
   font-family: var(--font-josefin);
   color: var(--black-color);
@@ -52,7 +55,7 @@
   text-transform: uppercase;
   text-align: center;
   font-weight: 300;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .section__text{
   text-align: center;
@@ -60,4 +63,77 @@
   font-weight: 400;
   color: var(--gray-color);
   line-height: 1.6em;
+}
+
+.section-img{
+  height: 120px;
+  background-image: linear-gradient(to right, hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 100%, 0)),url(../assets/images/mobile/image-deep-earth.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 20px;
+}
+.section-img:nth-of-type(2){
+  background-image: linear-gradient(to right, hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 100%, 0)),url(../assets/images/mobile/image-night-arcade.jpg);
+}
+.section-img:nth-of-type(3){
+  background-image: linear-gradient(to right, hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 100%, 0)),url(../assets/images/mobile/image-soccer-team.jpg);
+}
+.section-img:nth-of-type(4){
+  background-image: linear-gradient(to right, hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 100%, 0)),url(../assets/images/mobile/image-grid.jpg);
+  padding-right: 300px;
+}
+.section-img:nth-of-type(5){
+  background-image: linear-gradient(to right, hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 100%, 0)),url(../assets/images/mobile/image-from-above.jpg);
+}
+.section-img:nth-of-type(6){
+  background-image: linear-gradient(to right, hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 100%, 0)),url(../assets/images/mobile/image-pocket-borealis.jpg);
+}
+.section-img:nth-of-type(7){
+  background-image: linear-gradient(to right, hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 100%, 0)),url(../assets/images/mobile/image-curiosity.jpg);
+}
+.section-img:nth-of-type(8){
+  background-image: linear-gradient(to right, hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 100%, 0)),url(../assets/images/mobile/image-fisheye.jpg);
+  margin-bottom: 40px;
+}
+.img__title{
+  font-family: var(--font-josefin);
+  color: var(--white-color);
+  text-transform: uppercase;
+  font-size: 1.5em;
+  padding: 50px 180px 0 20px;
+}
+.button{
+  width: 180px;
+  height: 40px;
+  display: block;
+  margin: auto;
+  text-transform: uppercase;
+  background-color: var(--white-color);
+  outline: none;
+  border: 1px solid var(--black-color);
+  font-family: var(--font-alata);
+  letter-spacing: .3em;
+  margin-bottom: 80px;
+}
+
+/* Footer */
+.footer{
+  background-color: var(--black-color);
+  padding-top: 50px;
+}
+.footer__title{
+  font-family: var(--font-alata);
+  color: white;
+}
+.footer__img{
+  width: 150px;
+  display: block;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.footer__text{
+  text-align: center;
+  font-family: var(--font-alata);
+  color: var(--white-color);
+  margin-bottom: 20px;
 }
