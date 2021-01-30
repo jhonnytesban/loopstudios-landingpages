@@ -4,6 +4,10 @@ import '../styles/Landing.css';
 import Logo from '../assets/images/logo.svg';
 import Menu from '../assets/images/icon-hamburger.svg';
 import Interactive from '../assets/images/mobile/image-interactive.jpg';
+import IconFacebook from '../assets/images/icon-facebook.svg';
+import IconInstagram from '../assets/images/icon-instagram.svg';
+import IconPinterest from '../assets/images/icon-pinterest.svg';
+import IconTwitter from '../assets/images/icon-twitter.svg';
 
 const Landing = () => {
   return(
@@ -63,7 +67,12 @@ const Landing = () => {
         <p className="footer__text">Products</p>
         <p className="footer__text">Support</p>
         <div className="footer-icons">
+          <img className="icons__img" src={IconFacebook} alt=""/>
+          <img className="icons__img" src={IconInstagram} alt=""/>
+          <img className="icons__img" src={IconPinterest} alt=""/>
+          <img className="icons__img" src={IconTwitter} alt=""/>
         </div>
+        <p className="footer__info">© 2021 Loopstudios. All rights reserved.</p>
       </footer>
     </Fragment>
   )
