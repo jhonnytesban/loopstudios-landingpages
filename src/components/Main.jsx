@@ -1,5 +1,6 @@
 import React from 'react';
 import Interactive from '../assets/images/mobile/image-interactive.jpg';
+import InteractiveDesktop from '../assets/images/desktop/image-interactive.jpg';
 import '../styles/Main.css';
 
 const Main = () => {
@@ -7,7 +8,8 @@ const Main = () => {
     <main className="main">
         <article className="article">
           <img className="main__interactive" src={Interactive} alt=""/>
-          <section className="section">
+          <img className="main__interactiveD" src={InteractiveDesktop} alt=""/>
+          <section className="section-info">
             <h2 className="subtitle">the leader in interactive vr</h2>
             <p className="section__text">Founded in 2001, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winnig creations have transformed businesses through digital experiences that bind to their brand.</p>
           </section>

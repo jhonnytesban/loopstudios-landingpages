@@ -71,3 +71,45 @@
   line-height: 50px;
   font-weight: 300;
 }
+.nav-desktop{
+  display: none;
+}
+@media (min-width: 800px) {
+  .header{
+    background-image: url(../assets/images/desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .container-header__hamburger{
+    display: none;
+  }
+  .container-header{
+    padding: 50px 150px;
+  }
+  .nav-desktop{
+    display: block;
+  }
+  .desktop-menu{
+    display: flex;
+  }
+  .link__desktop{
+    color: var(--white-color);
+    text-decoration: none;
+    margin: 0 12px;
+    font-family: var(--font-alata);
+    font-size: 1em;
+  }
+  .container-slogan{
+    width: 45%;
+    height: 40%;
+    border: 2px solid var(--white-color);
+    margin-left: 10%;
+    color: var(--white-color);
+    text-transform: uppercase;
+    padding: 40px;
+    font-size: 4em;
+    font-family: var(--font-josefin);
+    font-weight: 300;
+    box-sizing: border-box;
+  }
+}

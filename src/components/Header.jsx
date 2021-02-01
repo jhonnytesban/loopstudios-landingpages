@@ -8,7 +8,7 @@ class Header extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      style: "active"
+      style: "deactive"
     }
   }
   render() {
@@ -43,6 +43,15 @@ class Header extends React.Component {
           <div className="container-header">
             <img className="container-header__logo" src={Logo} alt=""/>
             <img className="container-header__hamburger" src={Menu} alt="" onClick={handleMenu}/>
+            <nav className="nav-desktop">
+              <ul className="desktop-menu">
+                <li className="menu__item"><a href="" className="link__desktop">About</a></li>
+                <li className="menu__item"><a href="" className="link__desktop">Careers</a></li>
+                <li className="menu__item"><a href="" className="link__desktop">Events</a></li>
+                <li className="menu__item"><a href="" className="link__desktop">Products</a></li>
+                <li className="menu__item"><a href="" className="link__desktop">Support</a></li>
+              </ul>
+            </nav>
           </div>
           <div className="container-slogan">
             <p className="container-slogan__text">inmersive experiences that deliver</p>
