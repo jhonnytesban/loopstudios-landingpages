@@ -35,3 +35,23 @@
   color: var(--gray-color);
   text-align: center;
 }
+
+@media (min-width: 800px) {
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .footer__img{
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  .footer-desktop__text{
+    display: flex;
+  }
+  .footer__text{
+    margin: 0;
+    margin-right: 20px;
+  }
+}

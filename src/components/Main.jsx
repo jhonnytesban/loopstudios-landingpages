@@ -15,30 +15,35 @@ const Main = () => {
           </section>
         </article>
         <section className="section">
-          <h2 className="subtitle">our creations</h2>
-          <div className="section-img">
-            <p className="img__title">deep hearth</p>
+          <div className="section-container">
+            <h2 className="subtitle">our creations</h2>
+            <button className="buttonD">see all</button>
           </div>
-          <div className="section-img">
-            <p className="img__title">night arcade</p>
-          </div>
-          <div className="section-img">
-            <p className="img__title">soccer team vr</p>
-          </div>
-          <div className="section-img">
-            <p className="img__title">the grid</p>
-          </div>
-          <div className="section-img">
-            <p className="img__title">from up above vr</p>
-          </div>
-          <div className="section-img">
-            <p className="img__title">pocket borealis</p>
-          </div>
-          <div className="section-img">
-            <p className="img__title">the curiosity</p>
-          </div>
-          <div className="section-img">
-            <p className="img__title">make it fisheye</p>
+          <div className="container-grid">
+            <div className="section-img">
+              <p className="img__title">deep hearth</p>
+            </div>
+            <div className="section-img">
+              <p className="img__title">night arcade</p>
+            </div>
+            <div className="section-img">
+              <p className="img__title">soccer team vr</p>
+            </div>
+            <div className="section-img">
+              <p className="img__title">the grid</p>
+            </div>
+            <div className="section-img">
+              <p className="img__title">from up above vr</p>
+            </div>
+            <div className="section-img">
+              <p className="img__title">pocket borealis</p>
+            </div>
+            <div className="section-img">
+              <p className="img__title">the curiosity</p>
+            </div>
+            <div className="section-img">
+              <p className="img__title">make it fisheye</p>
+            </div>
           </div>
           <button className="button">see all</button>
         </section>
